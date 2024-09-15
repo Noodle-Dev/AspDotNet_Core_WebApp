@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Git_Repo\\AspDotNet_Core_WebApp\\JokesApp\\JokesApp.csproj": {}
+    "/Users/alejandroalonso/Documents/GitHub/AspDotNet_Core_WebApp/JokesApp/JokesApp.csproj": {}
   },
   "projects": {
-    "A:\\Git_Repo\\AspDotNet_Core_WebApp\\JokesApp\\JokesApp.csproj": {
+    "/Users/alejandroalonso/Documents/GitHub/AspDotNet_Core_WebApp/JokesApp/JokesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Git_Repo\\AspDotNet_Core_WebApp\\JokesApp\\JokesApp.csproj",
+        "projectUniqueName": "/Users/alejandroalonso/Documents/GitHub/AspDotNet_Core_WebApp/JokesApp/JokesApp.csproj",
         "projectName": "JokesApp",
-        "projectPath": "A:\\Git_Repo\\AspDotNet_Core_WebApp\\JokesApp\\JokesApp.csproj",
-        "packagesPath": "C:\\Users\\em30a\\.nuget\\packages\\",
-        "outputPath": "A:\\Git_Repo\\AspDotNet_Core_WebApp\\JokesApp\\obj\\",
+        "projectPath": "/Users/alejandroalonso/Documents/GitHub/AspDotNet_Core_WebApp/JokesApp/JokesApp.csproj",
+        "packagesPath": "/Users/alejandroalonso/.nuget/packages/",
+        "outputPath": "/Users/alejandroalonso/Documents/GitHub/AspDotNet_Core_WebApp/JokesApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\em30a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alejandroalonso/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
