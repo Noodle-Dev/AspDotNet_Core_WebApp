@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/MandrilApi.props" />
+  <Import Project="..\build\MandrilApi.props" />
 </Project>

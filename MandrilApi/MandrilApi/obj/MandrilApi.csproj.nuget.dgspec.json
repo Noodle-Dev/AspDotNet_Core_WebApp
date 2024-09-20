@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alejandroalonso/Documents/GitHub/AspDotNet_Core_WebApp/MandrilApi/MandrilApi/MandrilApi.csproj": {}
+    "A:\\Git_Repo\\AspDotNet_Core_WebApp\\MandrilApi\\MandrilApi\\MandrilApi.csproj": {}
   },
   "projects": {
-    "/Users/alejandroalonso/Documents/GitHub/AspDotNet_Core_WebApp/MandrilApi/MandrilApi/MandrilApi.csproj": {
+    "A:\\Git_Repo\\AspDotNet_Core_WebApp\\MandrilApi\\MandrilApi\\MandrilApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alejandroalonso/Documents/GitHub/AspDotNet_Core_WebApp/MandrilApi/MandrilApi/MandrilApi.csproj",
+        "projectUniqueName": "A:\\Git_Repo\\AspDotNet_Core_WebApp\\MandrilApi\\MandrilApi\\MandrilApi.csproj",
         "projectName": "MandrilApi",
-        "projectPath": "/Users/alejandroalonso/Documents/GitHub/AspDotNet_Core_WebApp/MandrilApi/MandrilApi/MandrilApi.csproj",
-        "packagesPath": "/Users/alejandroalonso/.nuget/packages/",
-        "outputPath": "/Users/alejandroalonso/Documents/GitHub/AspDotNet_Core_WebApp/MandrilApi/MandrilApi/obj/",
+        "projectPath": "A:\\Git_Repo\\AspDotNet_Core_WebApp\\MandrilApi\\MandrilApi\\MandrilApi.csproj",
+        "packagesPath": "C:\\Users\\em30a\\.nuget\\packages\\",
+        "outputPath": "A:\\Git_Repo\\AspDotNet_Core_WebApp\\MandrilApi\\MandrilApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/alejandroalonso/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\em30a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
