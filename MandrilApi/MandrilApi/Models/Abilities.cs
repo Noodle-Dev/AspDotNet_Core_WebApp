@@ -1,6 +1,6 @@
 namespace MandrilApi.Models;
 
-public class Abilities
+public class Ability
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;

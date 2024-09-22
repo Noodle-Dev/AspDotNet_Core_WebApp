@@ -6,5 +6,5 @@ public class Mandril
     public string Name { get; set; } = String.Empty;
     public string LastName { get; set; } = String.Empty;
 
-    public List<Abilities>? Abilities   { get; set; }
+    public List<Ability>? Abilities   { get; set; }
 }
