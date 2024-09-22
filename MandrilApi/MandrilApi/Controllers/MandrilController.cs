@@ -26,7 +26,7 @@ public class MandrilController : ControllerBase
     }
 
     //Añadir mandriles
-    [HttpPost]
+    [HttpPost("{mandrilId}")]
     public ActionResult<Mandril> PostMandril(MandrilInsert mandrilInsert)
     {
         var MaxMandril = MandrilDataStore.Current.Mandriles.Max(x => x.Id);
@@ -43,5 +43,31 @@ public class MandrilController : ControllerBase
             newMandril
         );
             
+    }
+
+    //Modificar variables
+    [HttpPut("{mandrilId}")]
+    public ActionResult<Mandril> PutMandril([FromRoute] int mandrilId, [FromBody] MandrilInsert mandrilInsert)
+    {
+       var mandril = MandrilDataStore.Current.Mandriles.FirstOrDefault(x => x.Id == mandrilId);
+       if(mandril == null)
+            return NotFound("Mandril not found");
+        mandril.Name = mandrilInsert.Name;
+        mandril.LastName = mandrilInsert.LastName;
+
+        return NoContent();
+    }
+
+    //Eliminar Datos
+    [HttpDelete("{mandrilId}")]
+    public ActionResult<Mandril> DeleteMandril(int mandrilId)
+    {
+       var mandril = MandrilDataStore.Current.Mandriles.FirstOrDefault(x => x.Id == mandrilId);
+       if(mandril == null)
+            return NotFound("Mandril not found");
+
+        MandrilDataStore.Current.Mandriles.Remove(mandril);
+        return NoContent();
+               
     }
 }
