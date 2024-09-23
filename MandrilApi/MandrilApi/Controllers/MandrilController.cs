@@ -1,6 +1,7 @@
 using MandrilApi.Services;
 using Microsoft.AspNetCore.Mvc;
 using MandrilApi.Models;
+using MandrilApi.Helpers;
 
 namespace MandrilApi.Controllers;
 
@@ -21,7 +22,7 @@ public class MandrilController : ControllerBase
     {
        var mandril = MandrilDataStore.Current.Mandriles.FirstOrDefault(x => x.Id == mandrilId);
        if (mandril == null)
-        return NotFound("Mandril not found");
+        return NotFound(Messages.Mandril.NotFound);
        return Ok(mandril);
     }
 
@@ -51,7 +52,7 @@ public class MandrilController : ControllerBase
     {
        var mandril = MandrilDataStore.Current.Mandriles.FirstOrDefault(x => x.Id == mandrilId);
        if(mandril == null)
-            return NotFound("Mandril not found");
+            return NotFound(Messages.Mandril.NotFound);
         mandril.Name = mandrilInsert.Name;
         mandril.LastName = mandrilInsert.LastName;
 
@@ -64,7 +65,7 @@ public class MandrilController : ControllerBase
     {
        var mandril = MandrilDataStore.Current.Mandriles.FirstOrDefault(x => x.Id == mandrilId);
        if(mandril == null)
-            return NotFound("Mandril not found");
+            return NotFound(Messages.Mandril.NotFound);
 
         MandrilDataStore.Current.Mandriles.Remove(mandril);
         return NoContent();
